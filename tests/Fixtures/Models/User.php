@@ -1,9 +1,9 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Tests\Fixtures\Models;
+namespace Linkbee\StateWorkflow\Tests\Fixtures\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Ringierimu\StateWorkflow\Traits\HasWorkflowTrait;
+use Linkbee\StateWorkflow\Traits\HasWorkflowTrait;
 
 /**
  * Class User.

@@ -1,11 +1,11 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Console\Commands;
+namespace Linkbee\StateWorkflow\Console\Commands;
 
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Config;
-use Ringierimu\StateWorkflow\Workflow\StateWorkflow;
+use Linkbee\StateWorkflow\Workflow\StateWorkflow;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Workflow\Dumper\GraphvizDumper;
 

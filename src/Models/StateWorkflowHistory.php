@@ -1,6 +1,6 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Models;
+namespace Linkbee\StateWorkflow\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

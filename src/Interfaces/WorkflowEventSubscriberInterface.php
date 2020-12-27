@@ -1,6 +1,6 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Interfaces;
+namespace Linkbee\StateWorkflow\Interfaces;
 
 /**
  * Interface WorkflowEventSubscriberInterface.
@@ -11,7 +11,7 @@ interface WorkflowEventSubscriberInterface
      * Register the listeners for the subscriber.
      *
      * $event->listen(
-     *   "Ringierimu\StateWorkflow\Events\GuardEvent",
+     *   "Linkbee\StateWorkflow\Events\GuardEvent",
      *   "App\Listeners\UserEventSubscriber@onGuard"
      * );
      *

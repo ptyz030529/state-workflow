@@ -1,9 +1,9 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Tests\Fixtures\Traits;
+namespace Linkbee\StateWorkflow\Tests\Fixtures\Traits;
 
-use Ringierimu\StateWorkflow\Tests\Fixtures\Models\User;
-use Ringierimu\StateWorkflow\Tests\Fixtures\Subscriber\UserEventSubscriber;
+use Linkbee\StateWorkflow\Tests\Fixtures\Models\User;
+use Linkbee\StateWorkflow\Tests\Fixtures\Subscriber\UserEventSubscriber;
 
 /**
  * Trait ConfigTrait.

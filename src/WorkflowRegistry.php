@@ -1,15 +1,15 @@
 <?php
 
-namespace Ringierimu\StateWorkflow;
+namespace Linkbee\StateWorkflow;
 
 use Exception;
 use Illuminate\Support\Facades\Event;
 use ReflectionClass;
-use Ringierimu\StateWorkflow\Interfaces\WorkflowEventSubscriberInterface;
-use Ringierimu\StateWorkflow\Interfaces\WorkflowRegistryInterface;
-use Ringierimu\StateWorkflow\Subscribers\WorkflowSubscriber;
-use Ringierimu\StateWorkflow\Workflow\MethodMarkingStore;
-use Ringierimu\StateWorkflow\Workflow\StateWorkflow;
+use Linkbee\StateWorkflow\Interfaces\WorkflowEventSubscriberInterface;
+use Linkbee\StateWorkflow\Interfaces\WorkflowRegistryInterface;
+use Linkbee\StateWorkflow\Subscribers\WorkflowSubscriber;
+use Linkbee\StateWorkflow\Workflow\MethodMarkingStore;
+use Linkbee\StateWorkflow\Workflow\StateWorkflow;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\Workflow\Definition;
 use Symfony\Component\Workflow\DefinitionBuilder;

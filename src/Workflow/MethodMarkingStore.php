@@ -1,6 +1,6 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Workflow;
+namespace Linkbee\StateWorkflow\Workflow;
 
 use Symfony\Component\PropertyAccess\PropertyAccess;
 use Symfony\Component\Workflow\Marking;

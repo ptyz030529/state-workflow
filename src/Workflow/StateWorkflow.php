@@ -1,8 +1,8 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Workflow;
+namespace Linkbee\StateWorkflow\Workflow;
 
-use Ringierimu\StateWorkflow\Interfaces\StateWorkflowInterface;
+use Linkbee\StateWorkflow\Interfaces\StateWorkflowInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\PropertyAccess\PropertyAccessor;
 use Symfony\Component\Workflow\Definition;

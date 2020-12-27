@@ -1,10 +1,10 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Tests\Unit;
+namespace Linkbee\StateWorkflow\Tests\Unit;
 
-use Ringierimu\StateWorkflow\Tests\Fixtures\Models\User;
-use Ringierimu\StateWorkflow\Tests\TestCase;
-use Ringierimu\StateWorkflow\Workflow\StateWorkflow;
+use Linkbee\StateWorkflow\Tests\Fixtures\Models\User;
+use Linkbee\StateWorkflow\Tests\TestCase;
+use Linkbee\StateWorkflow\Workflow\StateWorkflow;
 use Symfony\Component\Workflow\Exception\LogicException;
 use Symfony\Component\Workflow\Exception\NotEnabledTransitionException;
 

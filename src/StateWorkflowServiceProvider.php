@@ -1,10 +1,10 @@
 <?php
 
-namespace Ringierimu\StateWorkflow;
+namespace Linkbee\StateWorkflow;
 
 use Illuminate\Support\ServiceProvider;
-use Ringierimu\StateWorkflow\Console\Commands\StateWorkflowDumpCommand;
-use Ringierimu\StateWorkflow\Interfaces\WorkflowRegistryInterface;
+use Linkbee\StateWorkflow\Console\Commands\StateWorkflowDumpCommand;
+use Linkbee\StateWorkflow\Interfaces\WorkflowRegistryInterface;
 
 /**
  * Class StateWorkflowServiceProvider.

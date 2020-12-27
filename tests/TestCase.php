@@ -1,10 +1,10 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Tests;
+namespace Linkbee\StateWorkflow\Tests;
 
-use Ringierimu\StateWorkflow\StateWorkflowServiceProvider;
-use Ringierimu\StateWorkflow\Tests\Fixtures\Models\User;
-use Ringierimu\StateWorkflow\Tests\Fixtures\Traits\ConfigTrait;
+use Linkbee\StateWorkflow\StateWorkflowServiceProvider;
+use Linkbee\StateWorkflow\Tests\Fixtures\Models\User;
+use Linkbee\StateWorkflow\Tests\Fixtures\Traits\ConfigTrait;
 
 /**
  * Class TestCase.

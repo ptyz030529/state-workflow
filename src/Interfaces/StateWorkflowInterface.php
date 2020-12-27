@@ -1,6 +1,6 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Interfaces;
+namespace Linkbee\StateWorkflow\Interfaces;
 
 /**
  * Interface StateWorkflowInterface.

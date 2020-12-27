@@ -1,6 +1,6 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Events;
+namespace Linkbee\StateWorkflow\Events;
 
 /**
  * Class CompletedEvent.

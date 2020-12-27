@@ -1,13 +1,13 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Subscribers;
+namespace Linkbee\StateWorkflow\Subscribers;
 
-use Ringierimu\StateWorkflow\Events\CompletedEvent;
-use Ringierimu\StateWorkflow\Events\EnteredEvent;
-use Ringierimu\StateWorkflow\Events\EnterEvent;
-use Ringierimu\StateWorkflow\Events\GuardEvent;
-use Ringierimu\StateWorkflow\Events\LeaveEvent;
-use Ringierimu\StateWorkflow\Events\TransitionEvent;
+use Linkbee\StateWorkflow\Events\CompletedEvent;
+use Linkbee\StateWorkflow\Events\EnteredEvent;
+use Linkbee\StateWorkflow\Events\EnterEvent;
+use Linkbee\StateWorkflow\Events\GuardEvent;
+use Linkbee\StateWorkflow\Events\LeaveEvent;
+use Linkbee\StateWorkflow\Events\TransitionEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\Workflow\Event\Event;
 use Symfony\Component\Workflow\Event\GuardEvent as SymfonyGuardEvent;

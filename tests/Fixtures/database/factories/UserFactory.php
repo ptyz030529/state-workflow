@@ -14,7 +14,7 @@ use Illuminate\Support\Str;
 |
 */
 
-$factory->define(Ringierimu\StateWorkflow\Tests\Fixtures\Models\User::class, function (Faker $faker) {
+$factory->define(Linkbee\StateWorkflow\Tests\Fixtures\Models\User::class, function (Faker $faker) {
     return [
         'name'              => $faker->name,
         'email'             => $faker->unique()->safeEmail,

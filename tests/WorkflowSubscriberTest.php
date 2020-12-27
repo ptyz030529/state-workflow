@@ -1,8 +1,8 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Tests {
+namespace Linkbee\StateWorkflow\Tests {
 
-    use Ringierimu\StateWorkflow\WorkflowRegistry;
+    use Linkbee\StateWorkflow\WorkflowRegistry;
 
     /**
      * Class WorkflowSubscriberTest.

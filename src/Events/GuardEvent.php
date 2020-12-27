@@ -1,6 +1,6 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Events;
+namespace Linkbee\StateWorkflow\Events;
 
 use Symfony\Component\Workflow\Event\GuardEvent as SymfonyGuardEvent;
 

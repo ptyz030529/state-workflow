@@ -1,10 +1,10 @@
 <?php
 
-namespace Ringierimu\StateWorkflow\Traits;
+namespace Linkbee\StateWorkflow\Traits;
 
-use Ringierimu\StateWorkflow\Interfaces\WorkflowRegistryInterface;
-use Ringierimu\StateWorkflow\Models\StateWorkflowHistory;
-use Ringierimu\StateWorkflow\Workflow\StateWorkflow;
+use Linkbee\StateWorkflow\Interfaces\WorkflowRegistryInterface;
+use Linkbee\StateWorkflow\Models\StateWorkflowHistory;
+use Linkbee\StateWorkflow\Workflow\StateWorkflow;
 
 /**
  * Trait HasWorkflowTrait.
