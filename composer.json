@@ -1,5 +1,5 @@
 {
-    "name": "ptyz030529/state-workflow",
+    "name": "linkbee/state-workflow",
     "type": "library",
     "description": "State Management workflow for Laravel, this package is fork form RingierIMU/state-workflow",
     "keywords": [
@@ -7,7 +7,7 @@
         "state management",
         "laravel"
     ],
-    "homepage": "https://github.com/RingierIMU/state-workflow",
+    "homepage": "https://github.com/ptyz030529/state-workflow",
     "license": "MIT",
     "authors": [
         {
@@ -37,18 +37,18 @@
         ],
         "laravel": {
             "providers": [
-                "ptyz030529\\StateWorkflow\\StateWorkflowServiceProvider"
+                "Linkbee\\StateWorkflow\\StateWorkflowServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "ptyz030529\\StateWorkflow\\": "src/"
+            "Linkbee\\StateWorkflow\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ptyz030529\\StateWorkflow\\Tests\\": "tests/"
+            "Linkbee\\StateWorkflow\\Tests\\": "tests/"
         },
         "classmap": [
             "tests/Fixtures/database/factories"
