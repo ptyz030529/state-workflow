@@ -5,17 +5,17 @@ A workflow consist of state and actions to get from one place to another.
 The actions are called transitions which describes how to get from one state to another.
 ## Installation
 ```
-$ composer require ringierimu/state-workflow 
+$ composer require linkbee/state-workflow 
 ```
 
 For Laravel versions lower than 5.5, this step is important after running above script.
 -   Open your config/app.php file and add custom service provider:
 ```php
-Ringierimu\StateWorkflow\StateWorkflowServiceProvider::class
+Linkbee\StateWorkflow\StateWorkflowServiceProvider::class
 ```
 Publish `config/workflow.php` file
 ```php
-$ php artisan vendor:publish --provider="Ringierimu\StateWorkflow\StateWorkflowServiceProvider"
+$ php artisan vendor:publish --provider="Linkbee\StateWorkflow\StateWorkflowServiceProvider"
 ```
 Run migrations
 ```
@@ -72,7 +72,7 @@ $ php artisan migrate
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Ringierimu\StateWorkflow\Traits\HasWorkflowTrait;
+use Linkbee\StateWorkflow\Traits\HasWorkflowTrait;
 
 /**
  * Class Post
@@ -167,12 +167,12 @@ NB:
 ```php
 <?php namespace App\Listeners;
 
-use Ringierimu\StateWorkflow\Events\EnteredEvent;
-use Ringierimu\StateWorkflow\Events\EnterEvent;
-use Ringierimu\StateWorkflow\Events\GuardEvent;
-use Ringierimu\StateWorkflow\Events\LeaveEvent;
-use Ringierimu\StateWorkflow\Events\TransitionEvent;
-use Ringierimu\StateWorkflow\Subscribers\WorkflowSubscriberHandler;
+use Linkbee\StateWorkflow\Events\EnteredEvent;
+use Linkbee\StateWorkflow\Events\EnterEvent;
+use Linkbee\StateWorkflow\Events\GuardEvent;
+use Linkbee\StateWorkflow\Events\LeaveEvent;
+use Linkbee\StateWorkflow\Events\TransitionEvent;
+use Linkbee\StateWorkflow\Subscribers\WorkflowSubscriberHandler;
 
 /**
  * Class PostEventSubscriber
