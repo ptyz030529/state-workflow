@@ -1,7 +1,7 @@
 {
-    "name": "ringierimu/state-workflow",
+    "name": "ptyz030529/state-workflow",
     "type": "library",
-    "description": "State Management workflow for Laravel",
+    "description": "State Management workflow for Laravel, this package is fork form RingierIMU/state-workflow",
     "keywords": [
         "workflow",
         "state management",
@@ -11,15 +11,15 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Norby Baruani",
-            "email": "norbyb@roam.africa",
+            "name": "JimbaCheng",
+            "email": "ptyz030529@sina.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.2.5",
-        "illuminate/events": "^7.0",
-        "illuminate/support": "^7.0",
+        "php": ">7.2.5",
+        "illuminate/events": ">7.0",
+        "illuminate/support": ">7.0",
         "symfony/event-dispatcher": "^5.1",
         "symfony/workflow": "^5.1",
         "symfony/property-access": "^5.1"
@@ -37,18 +37,18 @@
         ],
         "laravel": {
             "providers": [
-                "Ringierimu\\StateWorkflow\\StateWorkflowServiceProvider"
+                "ptyz030529\\StateWorkflow\\StateWorkflowServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Ringierimu\\StateWorkflow\\": "src/"
+            "ptyz030529\\StateWorkflow\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ringierimu\\StateWorkflow\\Tests\\": "tests/"
+            "ptyz030529\\StateWorkflow\\Tests\\": "tests/"
         },
         "classmap": [
             "tests/Fixtures/database/factories"
